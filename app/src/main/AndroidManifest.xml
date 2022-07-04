@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerViewKotlinReyy">
         <activity
+            android:name=".DetailBadmintonActivity"
+            android:exported="false">
+            </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
